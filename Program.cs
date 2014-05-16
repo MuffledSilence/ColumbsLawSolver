@@ -212,7 +212,7 @@ namespace CoulombsLawSolver
                 {
                     force = calculateForce(pointSolvingFor, listOfPoints.ElementAt(i));
                     angle = calculateAngle(pointSolvingFor, listOfPoints.ElementAt(i));
-                    x += force * Math.Cos(angle)
+                    x += force * Math.Cos(angle);
                 }
             }
             return x;
